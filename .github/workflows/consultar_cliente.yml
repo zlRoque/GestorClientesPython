@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 name: Consultar Cliente
+=======
+name: Consulta de Cliente
+>>>>>>> 5715c315de3ac7115aa102488f4cd9e2b7b15b58
 
 on:
   workflow_dispatch:
 
 jobs:
+<<<<<<< HEAD
   consultar_cliente:
     runs-on: ubuntu-latest
 
@@ -16,3 +21,10 @@ jobs:
         echo "🔵 Información de cliente consultada."
         echo "📣 Notificación a todos los miembros del equipo."
 
+=======
+  notificar_consulta:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar mensaje de consulta
+        run: echo "🔍 Se ha consultado la información de un cliente."
+>>>>>>> 5715c315de3ac7115aa102488f4cd9e2b7b15b58

@@ -1,0 +1,7 @@
+Nombre: roque
+ID_Cliente: RO20251031193037
+Telefono: 5345
+Correo: 3445
+FechaRegistro: 2025-10-31
+Servicios:
+- 12 (2025-10-31)

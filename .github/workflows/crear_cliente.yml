@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 name: Crear Nuevo Cliente
 
@@ -16,3 +17,16 @@ jobs:
       run: |
         echo "🟢 Nuevo cliente creado en el sistema Axanet."
         echo "📣 Notificación a todos los miembros del equipo."
+=======
+name: Creación de Cliente
+
+on:
+  workflow_dispatch:
+
+jobs:
+  notificar_creacion:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar mensaje de creación
+        run: echo "🆕 Se ha creado un nuevo cliente en la aplicación."
+>>>>>>> 5715c315de3ac7115aa102488f4cd9e2b7b15b58
